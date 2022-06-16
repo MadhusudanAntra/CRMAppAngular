@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'CRMAppAngular';
+  applicationName="My CRM in Angular"
+  studentName="Smith"
+  isDevEnvironment=true;
+  showDiv=true;
+  countries =["UK","USA","Germany","Italy","Spain"]
+
+  togglediv(){
+    this.showDiv = !this.showDiv;
+  }
 }

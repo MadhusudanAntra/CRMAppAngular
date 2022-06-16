@@ -1,0 +1,13 @@
+modules are the basic block in angular. 
+Angular application will look for modules to call the components in angular
+default module in angular is appModule...
+to create a module we need to use a decorator called @NgModule({})
+to change the default landing module go to main.ts file and change the default bootstrap module
+
+
+@NgModule decorator has following important properties
+
+   declarations:- it is an array where you can define the components related to the module
+   imports :- it is an array where you can define the other modules used in this module
+   providers:- it is an array where you can inject the services to the modules
+   bootstrap:- it tells that which component will automatically called when the module will load

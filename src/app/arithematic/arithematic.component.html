@@ -1,0 +1,15 @@
+<div class="mb-3">
+    <label>Enter a number</label>
+    <input [(ngModel)]="firstNumber" class="form-control" />
+</div>
+<div class="mb-3">
+    <label>Enter a number</label>
+    <input [(ngModel)]="secondNumber" class="form-control" />
+</div>
+<div class="mb-3">
+    <label>Result</label>
+    <input [(ngModel)]="result" disabled="disabled" class="form-control" />
+</div>
+<div class="mb-3">
+    <input type="button" class="btn bg-primary" value="Addition" (click)="addition()">
+</div>

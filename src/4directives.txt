@@ -1,0 +1,12 @@
+3 types of directives are there in angular
+
+structural directives
+class directives
+attribute directives
+
+
+structural directives:- they are used to created/destroy/show/hide the html elements
+they always start with * (asterik) symbol
+*ngIf
+*ngFor
+*ngSwitch
