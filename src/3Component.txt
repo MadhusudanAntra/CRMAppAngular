@@ -1,0 +1,20 @@
+component is the small block used by the modules.
+it is a class with @component() decorator
+
+-- when you create a new component
+          -- a typescript class with @component decorator
+          -- an html file particular to the component (template)
+          -- a style file (css/scss)
+          -- a typescript file to write unit test (spec.ts)
+
+
+          To generate a component use the command
+
+          ng generate component <component-name>
+          ng g c <component-name>
+
+
+
+
+
+path-->    Component--> template-->
